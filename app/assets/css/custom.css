@@ -1,0 +1,183 @@
+@font-face {
+  font-family: "GmarketSansLight";
+  src: url("../fonts/GmarketSansLight.otf");
+}
+
+
+
+#custom_welcome {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+
+  background: url("../images/custom/welcome.png");
+  background-size: cover;
+}
+
+#welcomeButton {
+  position: absolute;
+  right: 0;
+  bottom: 10vh;
+  
+  display: inline-block;
+  text-align: center;
+  width: 40%;
+}
+
+
+
+#custom_loginOptions {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+
+  background: url("../images/custom/welcome.png");
+  background-size: cover;
+}
+
+#loginOptionMicrosoft {
+  position: absolute;
+  right: 10vw;
+  bottom: 15vh;
+
+  width: 25vw;
+
+  aspect-ratio: 300 / 69;
+  background: url("../images/custom/login_btn.png");
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+}
+
+
+
+#custom_landing {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+
+  background: url("../images/custom/main_screen_before.png");
+  background-size: cover;
+}
+
+#custom_landing_nav {
+  display: inline-block;
+  width: 100%;
+  height: 80px;
+  
+  display: flex;
+  align-items: center;
+}
+
+#nav_discord, #settingsMediaButton {
+  cursor: pointer;
+
+  transition: filter 0.3s;
+}
+#nav_discord:hover, #settingsMediaButton:hover {
+  filter: drop-shadow(0 0 6px #fff);
+}
+
+#nav_leaf {
+  margin-left: 30px;
+  margin-right: 50px;
+
+  display: inline-block;
+  width: 50px;
+  aspect-ratio: 63 / 47;
+
+  background: url("../images/custom/leaf.png");
+  background-size: cover;
+}
+
+#nav_discord {
+  margin-right: 50px;
+
+  display: inline-block;
+  width: 80px;
+  aspect-ratio: 100 / 27;
+
+  background: url("../images/custom/nav_discord.png");
+  background-size: cover;
+}
+
+#settingsMediaButton {
+  margin-right: 50px;
+
+  display: inline-block;
+  width: 40px;
+  aspect-ratio: 49 / 27;
+
+  background: url("../images/custom/nav_settings.png");
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+}
+
+#custom_nickname_area {
+  position: absolute;
+  top: 4%;
+  right: 9%;
+
+  display: flex;
+  align-items: center;
+}
+
+#avatarContainer {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+
+  background-size: cover;
+}
+
+#user_text {
+  margin-top: 3px;
+  margin-left: 3px;
+
+  font-family: "GmarketSansLight";
+  font-size: 0.8em;
+
+  color: #000;
+}
+
+#launch_button {
+  position: absolute;
+  right: 8vw;
+  bottom: 15vh;
+
+  width: 25vw;
+
+  aspect-ratio: 300 / 69;
+  background: url("../images/custom/launch_btn.png");
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+}
+#launch_button:hover {
+  filter: brightness(1.2);
+}
+
+#launch_loading_circle {
+  position: absolute;
+  right: 20vw;
+  bottom: 5vh;
+
+  width: 15vw;
+  aspect-ratio: 1 / 1;
+
+  background: url("../images/custom/loading.gif");
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+}
+
+
+
+#settingsContainer * {
+  font-family: "GmarketSansLight";
+}
